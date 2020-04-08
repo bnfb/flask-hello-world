@@ -50,7 +50,7 @@ def main_page():
   $(document).ready(function () {
         $( "#post-data" ).html( "<img src='static/loading-gears-animation-10.gif'/>" );
         
-        $.post( "/orgchart", 
+        $.post( "orgchart", 
             { 
               timezone: Intl.DateTimeFormat().resolvedOptions().timeZone },
             function( data ) {
