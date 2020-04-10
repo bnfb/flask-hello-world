@@ -46,6 +46,7 @@ def main_page():
   <body>
   <div id="post-data"></div>
   </div>
+  <p>branch 3</p>
   <script>
   $(document).ready(function () {
         $( "#post-data" ).html( "<img src='static/loading-gears-animation-10.gif'/>" );
